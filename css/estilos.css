@@ -96,7 +96,7 @@ img{
 		margin: 20px;
 	}
 
-	#galeria{
+	#contenido #galeria{
 		height: auto;
 		display: flex;
 		flex-direction: column;
@@ -104,8 +104,9 @@ img{
 		align-items: center;
 	}
 
-	#galeria img{
+	#contenido #galeria img{
 		width: 90%;
+		margin: 5%;
 	}
 }
 
@@ -239,7 +240,8 @@ nav a:hover {
 }
 
 #galeria img{
-	margin: 5%;
+	width: 28%;
+	margin: 1%;
 }
 
 #galeria img:nth-child(1){
